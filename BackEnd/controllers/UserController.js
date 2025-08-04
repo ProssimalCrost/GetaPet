@@ -3,6 +3,7 @@ const user = require('../models/User')
 module.exports = class UserController {
     
     static async register(req, res) {
-        res.json('Ola Get a Pet')
+        res.json('Olá Pet')
+       }
     }
-}
+
